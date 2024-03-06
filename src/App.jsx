@@ -5,8 +5,8 @@ const App = () => {
   return (
     <div>
       <Clock city="Stockholm" timeZone="Europe/Stockholm" />
-      <Timer startTime={200} />
-    </div>
+      <Timer startTime={200} /> {/* <- har kan man lägga timer */}
+    </div> 
   );
 };
 export default App;
